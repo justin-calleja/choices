@@ -1,0 +1,23 @@
+{
+  "name": "@justinc/choices",
+  "version": "1.0.0",
+  "description": "Inquirer.js wrapper for asking user to select from a list of choices",
+  "main": "src/index.js",
+  "scripts": {
+    "postversion": "git push origin master && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-calleja/choices.git"
+  },
+  "author": "Justin Calleja <calleja.justin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin-calleja/choices/issues"
+  },
+  "homepage": "https://github.com/justin-calleja/choices#readme",
+  "dependencies": {
+    "inquirer": "^1.1.2"
+  }
+}
